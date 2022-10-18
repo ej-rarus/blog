@@ -36,3 +36,39 @@
     transform: rotate(360deg);
   }
 }
+
+
+.Navigate {
+  background: black;
+  color:cornsilk;
+  width: 100%;
+  height: 3rem;
+  display: flex;
+  align-content: center;  
+  justify-content: space-between;
+}
+
+.Logo {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  font-weight: bolder;
+
+}
+
+.Menuwrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-right: 1rem;
+}
+
+.Nav-menu{
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
