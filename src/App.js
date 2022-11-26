@@ -4,6 +4,7 @@ import './App.css';
 import { BrowserRouter, Routes, Route, useParams } from 'react-router-dom';
 
 import Navibar from './components/Navibar.js';
+import NotFound from './pages/NotFound';
 
 
 function App() {
@@ -15,9 +16,7 @@ function App() {
 
       <BrowserRouter>
         <Routes>
-          <Route>
-
-          </Route>
+          <Route path='*' element={<NotFound />}></Route>
         </Routes>
 
       </BrowserRouter>
