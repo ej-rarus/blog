@@ -14,7 +14,6 @@ import Contact from './pages/Contact.js';
 import NotFound from './pages/NotFound.js';
 
 
-
 function App() {
   return (
     <div className="App">
