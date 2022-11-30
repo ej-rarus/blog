@@ -1,8 +1,8 @@
-function TextCard() {
+function TextCard(props) {
     return (
         <div className="Text-card">
-            <h1>About</h1>
-            <p>안녕하십니까 저는 홍길동입니다.</p>
+            <h1>{props.contents[props.i].title}</h1>
+            <p>{props.contents[props.i].text}</p>
         </div>
     )
 }

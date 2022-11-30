@@ -87,7 +87,9 @@
 .Card-wrapper{
   width: 100%;
   display: flex;
-  justify-content: center ;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .Text-card{
@@ -95,14 +97,14 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 3rem;
+  margin: 1.5rem;
   padding: 1rem;
   background-color: black;
   color: white;
   border-radius: 15px;
   box-shadow: 3px 10px 10px 1px gray;
   text-align: left;
-  animation: smoothAppear 1500ms;
+  animation: smoothAppear 1300ms;
 }
 
 @keyframes smoothAppear {
