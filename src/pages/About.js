@@ -1,8 +1,11 @@
+import TextCard from "../components/TextCard";
+
 function About() {
     return (
-        <div>
-            안녕하세요
+        <div className="Card-wrapper">
+            <TextCard></TextCard>
         </div>
+
     )
 }
 
