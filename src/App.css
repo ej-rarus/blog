@@ -2,6 +2,18 @@
   text-align: center;
 }
 
+h1 {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: bold;
+
+}
+
+p {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 300;
+  font-size: large;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -12,6 +24,8 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;700;900&display=swap');
 
 .App-header {
   background-color: #282c34;
@@ -142,6 +156,13 @@
   width: 3rem;
   height: 3rem;
   margin: 1rem;
+}
+
+.Footer-icon-rotate {
+  width: 3rem;
+  height: 3rem;
+  margin: 1rem;
+  animation: App-logo-spin infinite 5s linear;
 }
 
 .Footer-text {
