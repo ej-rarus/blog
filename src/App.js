@@ -12,6 +12,7 @@ import Art from './pages/Art.js';
 import Sport from './pages/Sport.js';
 import Contact from './pages/Contact.js';
 import NotFound from './pages/NotFound.js';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -32,6 +33,8 @@ function App() {
           <Route path='/contact' element={<Contact />}></Route>
           <Route path='*' element={<NotFound />}></Route>
         </Routes>
+
+        <Footer></Footer>
 
       </BrowserRouter>
     </div>
