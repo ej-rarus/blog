@@ -20,22 +20,23 @@ function App() {
     <div className="App">
 
       <BrowserRouter>
+        <div className='Main-wrapper'>
+          <Navibar></Navibar>
 
-        <Navibar></Navibar>
+          <Routes>
+            <Route path='/'></Route>
+            <Route path='/about' element={<About />}></Route>
+            <Route path='/philosophy' element={<Philosophy />}></Route>
+            <Route path='/dev' element={<Dev />}></Route>
+            <Route path='/art' element={<Art />}></Route>
+            <Route path='/sport' element={<Sport />}></Route>
+            <Route path='/contact' element={<Contact />}></Route>
+            <Route path='*' element={<NotFound />}></Route>
+          </Routes>
 
-        <Routes>
-          <Route path='/'></Route>
-          <Route path='/about' element={<About />}></Route>
-          <Route path='/philosophy' element={<Philosophy />}></Route>
-          <Route path='/dev' element={<Dev />}></Route>
-          <Route path='/art' element={<Art />}></Route>
-          <Route path='/sport' element={<Sport />}></Route>
-          <Route path='/contact' element={<Contact />}></Route>
-          <Route path='*' element={<NotFound />}></Route>
-        </Routes>
 
-        <Footer></Footer>
-
+          <Footer></Footer>
+        </div>
       </BrowserRouter>
     </div>
 

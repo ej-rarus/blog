@@ -1,17 +1,8 @@
 .App {
   text-align: center;
 }
-
-h1 {
-  font-family: 'Noto Sans KR', sans-serif;
-  font-weight: bold;
-
-}
-
-p {
-  font-family: 'Noto Sans KR', sans-serif;
-  font-weight: 300;
-  font-size: large;
+.Main-wrapper{
+  padding-top: 3rem;
 }
 
 .App-logo {
@@ -60,6 +51,9 @@ p {
   display: flex;
   align-content: center;  
   justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 .Logo {
@@ -111,14 +105,28 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 1.5rem;
+  margin: 1rem;
   padding: 1rem;
   background-color: black;
   color: white;
   border-radius: 15px;
   box-shadow: 3px 10px 10px 1px gray;
   text-align: left;
+  white-space: pre-line;
   animation: smoothAppear 1300ms;
+}
+
+.Text-card-title{
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.Text-card-text{
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 300;
+  font-size: normal;
+  margin: 0.5rem;
 }
 
 @keyframes smoothAppear {
