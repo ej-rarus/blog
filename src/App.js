@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route, Link, useParams } from 'react-router-dom'
 import { useMediaQuery } from 'react-responsive';
 
 import Navibar from './components/Navibar.js';
+import Mainpage from './pages/Mainpage';
 import About from './pages/About.js';
 import Philosophy from './pages/Philosophy.js';
 import Dev from './pages/Dev.js';
@@ -24,7 +25,7 @@ function App() {
           <Navibar></Navibar>
 
           <Routes>
-            <Route path='/'></Route>
+            <Route path='/' element={<Mainpage />}></Route>
             <Route path='/about' element={<About />}></Route>
             <Route path='/philosophy' element={<Philosophy />}></Route>
             <Route path='/dev' element={<Dev />}></Route>
