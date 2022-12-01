@@ -30,7 +30,7 @@ function Navibar() {
       )}
       {isTabletOrMobile && <div>
         <div className="Navigate">
-          <div className="Logo">LEE EUN JAE</div>
+          <div className="Logo"><Link to='/' style={{ color: "inherit", textDecoration: "none" }}>LEE EUN JAE</Link></div>
           <div className="Menuwrap">
             <div className="Nav-menu-mobile"><Link to='/about' style={{ color: "inherit", textDecoration: "none" }}><FaCommentAlt /></Link></div>
             <div className="Nav-menu-mobile"><Link to='/philosophy' style={{ color: "inherit", textDecoration: "none" }}><FaUserGraduate /></Link></div>

@@ -19,15 +19,26 @@ function Mainpage() {
                         </div>
                         <div className="Main-card-content">
                             <div className="Main-card-name">Eunjae Tony Lee</div>
-                            <div className="Main-card-text">
-
-                            </div>
+                            <div className="Main-card-text">안녕</div>
                         </div>
 
                     </div>
                 </div>
             )}
-            {isTabletOrMobile && <div></div>}
+            {isTabletOrMobile && <div className="Mainpage-wrapper">
+                <div className="Main-card">
+                    <div className="Main-card-img-container-mobile">
+                        <img className="Main-card-img-mobile" src="img/main/profile.png">
+
+                        </img>
+                    </div>
+                    <div className="Main-card-content">
+                        <div className="Main-card-name-mobile">Eunjae Tony Lee</div>
+                        <div className="Main-card-text-mobile">안녕</div>
+                    </div>
+
+                </div>
+            </div>}
 
 
         </div>
