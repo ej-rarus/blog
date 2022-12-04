@@ -278,6 +278,28 @@
   margin: 0.5rem;
 }
 
+.ImgSlide-wrapper {
+  position: relative;
+  width: 70vw;
+  margin: auto;
+  padding-bottom: 3rem;
+  background-color: #61dafb;
+}
+
+.ImgSlide-slide-box {
+  width: 100%;
+  margin: auto;
+  overflow-x: hidden;
+}
+
+.ImgSlide-content{
+  display: table;
+  float: left;
+  width: 70vw;
+  height: 70vw;
+}
+
+
 @keyframes smoothAppear {
   from {
     opacity: 0;
