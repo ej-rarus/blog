@@ -85,11 +85,6 @@ function Mainpage() {
 
                             </img>
                         </div>
-                        <div className="Main-card-content">
-                            <div className="Main-card-name-mobile">Eunjae Tony Lee</div>
-                            <div className="Main-card-text-mobile"> - 웹 프론트엔드 & ML 개발자</div>
-                        </div>
-
                     </div>
                 </div>
             }

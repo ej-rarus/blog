@@ -1,7 +1,7 @@
 function Philosophy() {
     return (
         <div>
-            Philosophy
+            <div className="block-test">Philosophy</div>
         </div>
     )
 }

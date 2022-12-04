@@ -1,3 +1,16 @@
+.block-test{
+  width: 100%;
+  height: 100%;
+  background: white;
+  animation: ani1 3s infinite;
+}
+
+@keyframes ani1 {
+  0% {background: yellow;}
+  50% {background: black;}
+  100% {background: yellow;}
+}
+
 .App {
   text-align: center;
 }
@@ -173,26 +186,13 @@
   border-bottom: solid 0.01rem ;
 }
 
-.Main-card-name-mobile{
-  width: 100%;
-  height: fit-content;
-  text-align: left;
-  margin: 1rem;
-  color:rgb(0, 0, 0);
-  font-family: 'Noto Sans KR', sans-serif;
-  font-size: 1.2rem;
-  font-weight: 800;
-  border-bottom: solid 0.01rem ;
-}
-
 .Main-card-text{
   width: 100%;
   text-align: left;
   margin-top: 1rem;
+  font-size: medium;
 }
-.Main-card-text-mobile{
-  width: 100%;
-}
+
 .Main-card-badge-wrapper{
   width: 100%;
   height: 50%;
@@ -237,11 +237,9 @@
 
 .Badge-text{
   width: 100%;
+  text-align: left;
   padding-left: 1rem;
-
 }
-
-
 
 .Card-wrapper{
   width: 100%;
